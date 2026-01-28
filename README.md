@@ -48,7 +48,6 @@ int main()
         scanf("%d %d", &key[i][0], &key[i][1]);
     }
 
-    // If plaintext length is odd, add 'X'
     if(strlen(plaintext) % 2 != 0)
     {
         strcat(plaintext, "X");
